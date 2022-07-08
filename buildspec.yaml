@@ -30,7 +30,7 @@ phases:
         - aws cloudfront create-invalidation --distribution-id E2HQF5JDM1L4S3	 --paths /*
 artifacts:
     files: 
-      - build/**
+      - build/**/*
       - scripts/*
       - nginx.conf
       - appspec.yml
