@@ -6,7 +6,7 @@ function Header(props) {
   function logMeOut() {
     axios({
       method: "POST",
-      url:"/logout",
+      url:"https://ebflask.abdelalitraining.com/logout",
     })
     .then((response) => {
        props.token()

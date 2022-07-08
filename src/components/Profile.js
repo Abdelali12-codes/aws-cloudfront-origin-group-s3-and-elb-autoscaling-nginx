@@ -7,7 +7,7 @@ function Profile(props) {
   function getData() {
     axios({
       method: "GET",
-      url:"/profile",
+      url:"https://ebflask.abdelalitraining.com/profile",
       headers: {
         Authorization: 'Bearer ' + props.token
       }

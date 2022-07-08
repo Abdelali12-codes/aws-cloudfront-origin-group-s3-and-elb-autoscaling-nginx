@@ -11,7 +11,7 @@ function Login(props) {
     function logMeIn(event) {
       axios({
         method: "POST",
-        url:"/token",
+        url:"https://ebflask.abdelalitraining.com/token",
         data:{
           email: loginForm.email,
           password: loginForm.password
