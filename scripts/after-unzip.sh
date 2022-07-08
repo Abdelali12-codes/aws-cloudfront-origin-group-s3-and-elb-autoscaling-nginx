@@ -1,3 +1,3 @@
 #!/bin/bash
 
-sudo cp  $HOME/devops/index.html /usr/share/nginx/html
+sudo cp  $HOME/devops/build/* /usr/share/nginx/html
