@@ -27,9 +27,7 @@ phases:
         #  --cache-control="max-age, no-cache, no-store, must-revalidate"
         #  ./build/service-worker.js s3://react-app-cloudfront-08-07-2022
 
-        - >
-          aws cloudfront create-invalidation --distribution-id E2HQF5JDM1L4S3
-          --paths /*
+        - aws cloudfront create-invalidation --distribution-id E2HQF5JDM1L4S3	 --paths /*
 artifacts:
     files: 
       - build/**
