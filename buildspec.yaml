@@ -34,4 +34,5 @@ artifacts:
     files: 
       - build/**
       - scripts/*
+      - nginx.conf
       - appspec.yml

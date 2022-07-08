@@ -1,6 +1,8 @@
 # cloudfront react with s3 and nginx server
 
-# launchconfiguration
+## launchconfiguration
+
+- user data
 
 ```
 #!/bin/bash
@@ -14,3 +16,12 @@ sudo chmod +x ./install
 sudo ./install auto
 
 ```
+
+## IAM
+
+- create iam policies to allow aws codebuild to make requests
+  to amazon s3
+
+- create iam polices to allow aws cloudfront
+
+- attache the above polices to the aws codebuild service role
