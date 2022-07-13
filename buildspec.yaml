@@ -20,7 +20,7 @@ phases:
       - npm run build
   post_build:
     commands:
-        #- aws s3 cp --recursive --acl public-read ./build s3://react-app-cloudfront-08-07-2022
+        - aws s3 cp --recursive --acl public-read ./build s3://react-app-cloudfront-08-07-2022
 
         #- >
         #  aws s3 cp --acl public-read
